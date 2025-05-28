@@ -1,0 +1,202 @@
+---
+services:
+
+  jellyfin:
+    image: linuxserver/jellyfin:latest
+    container_name: jellyfin
+    restart: unless-stopped
+    ports:
+      - "8096:8096"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{movies}}:/data/movies
+      - {{series}}:/data/tvshows
+      - {{config}}\jellyfin:/config
+
+  plex:
+    image: linuxserver/plex:latest
+    container_name: plex
+    #network_mode: host
+    restart: unless-stopped
+    ports:
+      - "32400:32400"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+      VERSION: docker
+    volumes:
+      - {{movies}}:/media/Movies
+      - {{series}}:/media/Series
+      - {{config}}\plex:/config
+
+  overseerr:
+    image: linuxserver/overseerr:latest
+    container_name: overseerr
+    restart: unless-stopped
+    ports:
+      - "5055:5055"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\overseerr:/config
+
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\Qbittorrent:/config
+      - {{downloads}}:/downloads
+
+  prowlarr:
+    image: linuxserver/prowlarr:latest
+    container_name: prowlarr
+    restart: unless-stopped
+    ports:
+      - "9696:9696"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\prowlarr:/config
+
+  radarr:
+    image: linuxserver/radarr:latest
+    container_name: radarr
+    restart: unless-stopped
+    ports:
+      - "7878:7878"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\radarr:/config
+      - {{downloads}}:/downloads
+      - {{movies}}:/media/movies
+
+  sonarr:
+    image: linuxserver/sonarr:latest
+    container_name: sonarr
+    restart: unless-stopped
+    ports:
+      - "8989:8989"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\sonarr:/config
+      - {{downloads}}:/downloads
+      - {{series}}:/media/series
+      
+#   organizr:
+#    image: organizr/organizr:latest
+#    container_name: organizr
+#    restart: unless-stopped
+#    hostname: "organizr"
+#    ports:
+#      - "8011:80"
+#    environment:
+#      PUID: {{PUID}}
+#      PGID: {{PGID}}
+#      TZ: {{local}}
+#    volumes:
+#      - {{config}}\organizr:/config
+#      
+  nginx:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx
+    restart: unless-stopped
+    ports:
+      - "40080:80"
+      - "40081:81"
+      - "40443:443"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - {{config}}\nginx:/data
+      - {{config}}\letsencrypt:/etc/letsencrypt
+
+  wallos:
+    image: bellamy/wallos:latest
+    container_name: wallos
+    restart: unless-stopped
+    ports:
+      - "8282:80"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - D:\Documents\Wallos\db:/var/www/html/db
+      - D:\Documents\Wallos\logos:/etc/letsencrypt
+      
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+      - "9443:9443"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /portainer_data:/data
+      
+  cloudflared:
+    image: cloudflare/cloudflared
+    container_name: cloudflared
+    restart: unless-stopped
+    command: tunnel run
+    environment:
+      TZ: {{local}}
+      TUNNEL_TOKEN: {{cloudflare_token}}
+    volumes:
+      - {{config}}\cloudflared:/config
+
+  paperless:
+    image: linuxserver/paperless-ngx:latest
+    container_name: paperless
+    restart: unless-stopped
+    ports:
+      - "8156:8000"
+    environment:
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+      REDIS_URL: 110.10.0.21:8156,docs.hydra14.com,tv.lan:8156
+    volumes:
+      - {{config}}\paperless:/config
+      - {{root}}\paperless:/data
+
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    restart: unless-stopped
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.21:3000,home.hydra14.com,tv.lan:3000
+      PUID: {{PUID}}
+      PGID: {{PGID}}
+      TZ: {{local}}
+    ports:
+      - "3

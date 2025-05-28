@@ -1,0 +1,105 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/services/
+- Media:
+    - Plex:
+        icon: plex.png
+        href: https://plex.hydra14.com
+        description: Watch movies and TV shows
+        server: my-docker
+        container: plex
+        widget:
+            type: plex
+            url: http://plex:32400
+            key: bKohse-Yh3bKx2F6oGLT
+    - Jellyfin:
+        icon: jellyfin.png
+        href: https://jellyfin.hydra14.com
+        description: Watch movies and TV shows
+        server: my-docker
+        container: jellyfin
+        widget:
+            type: jellyfin
+            url: http://jellyfin:8096
+            key: 267e77927409453ebc58f8aca51ae4a0
+            enableBlocks: true # optional, defaults to false
+            enableNowPlaying: true # optional, defaults to true
+            enableUser: true # optional, defaults to false
+            showEpisodeNumber: true # optional, defaults to false
+            expandOneStreamToTwoRows: false # optional, defaults to true
+    - Overseerr:
+        icon: overseerr.png
+        href: https://overseerr.hydra14.com
+        description: Request movies and TV shows
+        server: my-docker
+        container: overseerr
+        widget:
+            type: overseerr
+            url: http://overseerr:5055
+            key: MTcyNDYxMTY0MjEyNjUzODZmYzk3LWI5MzYtNDRhOC05MTA2LWQ2M2RkOTRhY2Q2NQ==
+    - Paperless:
+        icon: paperless-ngx.png
+        href: https://docs.hydra14.com
+        description: Papers and documents
+        server: my-docker
+        container: paperless
+        widget:
+            type: paperlessngx
+            url: http://paperless:8156
+            key: fc4338ef27aecbe531479e1768a24bbd9b8474ce
+- Backend:
+    - Radarr:
+        icon: radarr.png
+        href: https://radarr.hydra14.com
+        description: Manage movies
+        server: my-docker
+        container: radarr
+        widget:
+            type: radarr
+            url: http://radarr:7878
+            key: 4d99ccc3655841bb825d438f937141f2
+            enableQueue: true
+    - Sonarr:
+        icon: sonarr.png
+        href: https://sonarr.hydra14.com
+        description: Manage TV shows
+        server: my-docker
+        container: sonarr
+        widget:
+            type: sonarr
+            url: http://sonarr:8989
+            key: 92f1d50cfe724f629b5c491ab647f6bd
+            enableQueue: true
+    - Prowlarr:
+        icon: prowlarr.png
+        href: https://prowlarr.hydra14.com
+        description: Indexer for movies and TV shows
+        server: my-docker
+        container: prowlarr
+        widget:
+            type: prowlarr
+            url: http://prowlarr:9696
+            key: 5c0735eb966c4e86901485d0d4d81323
+    - qbittorrent:
+        icon: qbittorrent.png
+        href: https://qbittorrent.hydra14.com
+        description: Manage downloads
+        server: my-docker
+        container: qbittorrent
+        widget:
+            type: qbittorrent
+            url: http://qbittorrent:8080
+            username: hydra14
+            password: Welding14
+            enableLeechProgress: true # optional, defaults to false
+    - portainer:
+        icon: portainer.png
+        href: https://port.hydra14.com
+        description: Docker manager
+        server: my-docker
+        container: portainer
+        widget:
+            type: portainer
+            url: https://portainer:9000
+            env: 3
+            key: ptr_y+4unqwhKdcmrqD6R+WYiOo3G9mMTtrhWUS7O7DNG4M=
