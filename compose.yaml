@@ -1,4 +1,9 @@
 ---
+volumes:
+  movies:
+  series:
+  config:
+
 services:
 
   jellyfin:
@@ -8,13 +13,13 @@ services:
     ports:
       - "8096:8096"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{movies}}:/data/movies
-      - {{series}}:/data/tvshows
-      - {{config}}\jellyfin:/config
+      - {${movies}}:/data/movies
+      - {${series}}:/data/tvshows
+      - {${config}}\jellyfin:/config
 
   plex:
     image: linuxserver/plex:latest
@@ -24,14 +29,14 @@ services:
     ports:
       - "32400:32400"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
       VERSION: docker
     volumes:
-      - {{movies}}:/media/Movies
-      - {{series}}:/media/Series
-      - {{config}}\plex:/config
+      - {${movies}}:/media/Movies
+      - {${series}}:/media/Series
+      - {${config}}\plex:/config
 
   overseerr:
     image: linuxserver/overseerr:latest
@@ -40,11 +45,11 @@ services:
     ports:
       - "5055:5055"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\overseerr:/config
+      - {${config}}\overseerr:/config
 
   qbittorrent:
     image: linuxserver/qbittorrent:latest
@@ -53,12 +58,12 @@ services:
     ports:
       - "8080:8080"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\Qbittorrent:/config
-      - {{downloads}}:/downloads
+      - {${config}}\Qbittorrent:/config
+      - {${downloads}}:/downloads
 
   prowlarr:
     image: linuxserver/prowlarr:latest
@@ -67,11 +72,11 @@ services:
     ports:
       - "9696:9696"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\prowlarr:/config
+      - {${config}}\prowlarr:/config
 
   radarr:
     image: linuxserver/radarr:latest
@@ -80,13 +85,13 @@ services:
     ports:
       - "7878:7878"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\radarr:/config
-      - {{downloads}}:/downloads
-      - {{movies}}:/media/movies
+      - {${config}}\radarr:/config
+      - {${downloads}}:/downloads
+      - {${movies}}:/media/movies
 
   sonarr:
     image: linuxserver/sonarr:latest
@@ -95,13 +100,13 @@ services:
     ports:
       - "8989:8989"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\sonarr:/config
-      - {{downloads}}:/downloads
-      - {{series}}:/media/series
+      - {${config}}\sonarr:/config
+      - {${downloads}}:/downloads
+      - {${series}}:/media/series
       
 #   organizr:
 #    image: organizr/organizr:latest
@@ -111,11 +116,11 @@ services:
 #    ports:
 #      - "8011:80"
 #    environment:
-#      PUID: {{PUID}}
-#      PGID: {{PGID}}
-#      TZ: {{local}}
+#      PUID: ${PUID}
+#      PGID: ${PGID}
+#      TZ: ${local}
 #    volumes:
-#      - {{config}}\organizr:/config
+#      - {${config}}\organizr:/config
 #      
   nginx:
     image: jc21/nginx-proxy-manager:latest
@@ -126,12 +131,12 @@ services:
       - "40081:81"
       - "40443:443"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
-      - {{config}}\nginx:/data
-      - {{config}}\letsencrypt:/etc/letsencrypt
+      - {${config}}\nginx:/data
+      - {${config}}\letsencrypt:/etc/letsencrypt
 
   wallos:
     image: bellamy/wallos:latest
@@ -140,9 +145,9 @@ services:
     ports:
       - "8282:80"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
       - D:\Documents\Wallos\db:/var/www/html/db
       - D:\Documents\Wallos\logos:/etc/letsencrypt
@@ -156,9 +161,9 @@ services:
       - "9000:9000"
       - "9443:9443"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /portainer_data:/data
@@ -169,10 +174,10 @@ services:
     restart: unless-stopped
     command: tunnel run
     environment:
-      TZ: {{local}}
+      TZ: ${local}
       TUNNEL_TOKEN: {{cloudflare_token}}
     volumes:
-      - {{config}}\cloudflared:/config
+      - {${config}}\cloudflared:/config
 
   paperless:
     image: linuxserver/paperless-ngx:latest
@@ -181,13 +186,13 @@ services:
     ports:
       - "8156:8000"
     environment:
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
       REDIS_URL: 110.10.0.21:8156,docs.hydra14.com,tv.lan:8156
     volumes:
-      - {{config}}\paperless:/config
-      - {{root}}\paperless:/data
+      - {${config}}\paperless:/config
+      - {${root}}\paperless:/data
 
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
@@ -195,8 +200,8 @@ services:
     restart: unless-stopped
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.21:3000,home.hydra14.com,tv.lan:3000
-      PUID: {{PUID}}
-      PGID: {{PGID}}
-      TZ: {{local}}
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     ports:
       - "3
