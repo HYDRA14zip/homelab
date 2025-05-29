@@ -203,3 +203,8 @@ services:
       PUID: '1000'
       PGID: '1000'
       TZ: Europe/Budapest
+    ports:
+      - "3000:3000"
+    volumes:
+      - /home/hydra14/homelab/homepage:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
