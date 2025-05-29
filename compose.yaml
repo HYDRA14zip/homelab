@@ -200,8 +200,11 @@ services:
     restart: unless-stopped
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.21:3000,home.hydra14.com,tv.lan:3000
-      PUID: ${PUID}
-      PGID: ${PGID}
-      TZ: ${local}
+      PUID: '1000'
+      PGID: '1000'
+      TZ: Europe/Budapest
     ports:
-      - "3"
+      - "3000:3000"
+    volumes:
+      - D:\Media\Config\homepage:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
