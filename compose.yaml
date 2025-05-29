@@ -108,20 +108,20 @@ services:
       - ${downloads}:/downloads
       - ${series}:/media/series
       
-#   organizr:
-#    image: organizr/organizr:latest
-#    container_name: organizr
-#    restart: unless-stopped
-#    hostname: "organizr"
-#    ports:
-#      - "8011:80"
-#    environment:
-#      PUID: ${PUID}
-#      PGID: ${PGID}
-#      TZ: ${local}
-#    volumes:
-#      - ${config}/organizr:/config
-#      
+  organizr:
+    image: organizr/organizr:latest
+    container_name: organizr
+    restart: unless-stopped
+    hostname: "organizr"
+    ports:
+      - "8011:80"
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
+    volumes:
+      - ${config}/organizr:/config
+     
   nginx:
     image: jc21/nginx-proxy-manager:latest
     container_name: nginx
