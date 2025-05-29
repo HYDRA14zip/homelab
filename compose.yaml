@@ -17,9 +17,9 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${movies}}:/data/movies
-      - {${series}}:/data/tvshows
-      - {${config}}\jellyfin:/config
+      - ${movies}:/data/movies
+      - ${series}:/data/tvshows
+      - ${config}/jellyfin:/config
 
   plex:
     image: linuxserver/plex:latest
@@ -34,9 +34,9 @@ services:
       TZ: ${local}
       VERSION: docker
     volumes:
-      - {${movies}}:/media/Movies
-      - {${series}}:/media/Series
-      - {${config}}\plex:/config
+      - ${movies}:/media/Movies
+      - ${series}:/media/Series
+      - ${config}/plex:/config
 
   overseerr:
     image: linuxserver/overseerr:latest
@@ -49,7 +49,7 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\overseerr:/config
+      - ${config}/overseerr:/config
 
   qbittorrent:
     image: linuxserver/qbittorrent:latest
@@ -62,8 +62,8 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\Qbittorrent:/config
-      - {${downloads}}:/downloads
+      - ${config}/Qbittorrent:/config
+      - ${downloads}:/downloads
 
   prowlarr:
     image: linuxserver/prowlarr:latest
@@ -76,7 +76,7 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\prowlarr:/config
+      - ${config}/prowlarr:/config
 
   radarr:
     image: linuxserver/radarr:latest
@@ -89,9 +89,9 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\radarr:/config
-      - {${downloads}}:/downloads
-      - {${movies}}:/media/movies
+      - ${config}/radarr:/config
+      - ${downloads}:/downloads
+      - ${movies}:/media/movies
 
   sonarr:
     image: linuxserver/sonarr:latest
@@ -104,9 +104,9 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\sonarr:/config
-      - {${downloads}}:/downloads
-      - {${series}}:/media/series
+      - ${config}/sonarr:/config
+      - ${downloads}:/downloads
+      - ${series}:/media/series
       
 #   organizr:
 #    image: organizr/organizr:latest
@@ -120,7 +120,7 @@ services:
 #      PGID: ${PGID}
 #      TZ: ${local}
 #    volumes:
-#      - {${config}}\organizr:/config
+#      - ${config}/organizr:/config
 #      
   nginx:
     image: jc21/nginx-proxy-manager:latest
@@ -135,8 +135,8 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - {${config}}\nginx:/data
-      - {${config}}\letsencrypt:/etc/letsencrypt
+      - ${config}/nginx:/data
+      - ${config}/letsencrypt:/etc/letsencrypt
 
   wallos:
     image: bellamy/wallos:latest
@@ -149,8 +149,8 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - D:\Documents\Wallos\db:/var/www/html/db
-      - D:\Documents\Wallos\logos:/etc/letsencrypt
+      - ${root}/Wallos/db:/var/www/html/db
+      - ${root}/Wallos/logos:/etc/letsencrypt
       
   portainer:
     image: portainer/portainer-ce
@@ -175,9 +175,9 @@ services:
     command: tunnel run
     environment:
       TZ: ${local}
-      TUNNEL_TOKEN: {{cloudflare_token}}
+      TUNNEL_TOKEN: ${cloudflare_token}
     volumes:
-      - {${config}}\cloudflared:/config
+      - ${config}/cloudflared:/config
 
   paperless:
     image: linuxserver/paperless-ngx:latest
@@ -191,8 +191,8 @@ services:
       TZ: ${local}
       REDIS_URL: 110.10.0.21:8156,docs.hydra14.com,tv.lan:8156
     volumes:
-      - {${config}}\paperless:/config
-      - {${root}}\paperless:/data
+      - ${config}/paperless:/config
+      - ${root}/paperless:/data
 
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
@@ -204,4 +204,4 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     ports:
-      - "3
+      - "3"
