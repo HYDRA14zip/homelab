@@ -1,9 +1,4 @@
 ---
-volumes:
-  movies:
-  series:
-  config:
-
 services:
 
   jellyfin:
