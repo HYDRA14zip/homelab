@@ -189,7 +189,7 @@ services:
       PUID: ${PUID}
       PGID: ${PGID}
       TZ: ${local}
-      REDIS_URL: 110.10.0.21:8156,docs.hydra14.com,tv.lan:8156
+      REDIS_URL: 110.10.0.101:8156,docs.hydra14.com,tv.lan:8156
     volumes:
       - ${config}/paperless:/config
       - ${root}/paperless:/data
@@ -198,10 +198,10 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     restart: unless-stopped
+    ports:
+      - 3000:3000
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.21:3000,home.hydra14.com,tv.lan:3000
+      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.101:3000,home.hydra14.com,tv.lan:3000
       PUID: ${PUID}
       PGID: ${PGID}
       TZ: ${local}
-    ports:
-      - "3"
