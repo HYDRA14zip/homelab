@@ -1,0 +1,14 @@
+
+background:
+  image: https://images.pexels.com/photos/3996362/pexels-photo-3996362.jpeg
+  blur: sm
+  saturate: 50
+  brightness: 80
+  opacity: 80
+
+theme: dark
+color: slate
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey

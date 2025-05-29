@@ -33,9 +33,9 @@ services:
       - ${series}:/media/Series
       - ${config}/plex:/config
 
-  overseerr:
-    image: linuxserver/overseerr:latest
-    container_name: overseerr
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    container_name: jellyseerr
     restart: unless-stopped
     ports:
       - "5055:5055"
@@ -44,7 +44,7 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - ${config}/overseerr:/config
+      - ${config}/overseerr:/app/config
 
   qbittorrent:
     image: linuxserver/qbittorrent:latest
