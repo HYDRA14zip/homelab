@@ -189,7 +189,7 @@ services:
       PUID: ${PUID}
       PGID: ${PGID}
       TZ: ${local}
-      REDIS_URL: 110.10.0.21:8156,docs.hydra14.com,tv.lan:8156
+      REDIS_URL: 110.10.0.101:8156,docs.hydra14.com,tv.lan:8156
     volumes:
       - ${config}/paperless:/config
       - ${root}/paperless:/data
@@ -199,12 +199,12 @@ services:
     container_name: homepage
     restart: unless-stopped
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.21:3000,home.hydra14.com,tv.lan:3000
+      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.101:3000,home.hydra14.com,tv.lan:3000
       PUID: '1000'
       PGID: '1000'
       TZ: Europe/Budapest
     ports:
       - "3000:3000"
     volumes:
-      - D:\Media\Config\homepage:/app/config
+      - ${config}/homepage:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
