@@ -108,20 +108,20 @@ services:
       - ${downloads}:/downloads
       - ${series}:/media/series
       
-#   organizr:
-#    image: organizr/organizr:latest
-#    container_name: organizr
-#    restart: unless-stopped
-#    hostname: "organizr"
-#    ports:
-#      - "8011:80"
-#    environment:
-#      PUID: ${PUID}
-#      PGID: ${PGID}
-#      TZ: ${local}
-#    volumes:
-#      - ${config}/organizr:/config
-#      
+  organizr:
+    image: organizr/organizr:latest
+    container_name: organizr
+    restart: unless-stopped
+    hostname: "organizr"
+    ports:
+      - "8011:80"
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
+    volumes:
+      - ${config}/organizr:/config
+     
   nginx:
     image: jc21/nginx-proxy-manager:latest
     container_name: nginx
@@ -203,8 +203,3 @@ services:
       PUID: '1000'
       PGID: '1000'
       TZ: Europe/Budapest
-    ports:
-      - "3000:3000"
-    volumes:
-      - /home/hydra14/homelab/homepage:/app/config
-      - /var/run/docker.sock:/var/run/docker.sock:ro
