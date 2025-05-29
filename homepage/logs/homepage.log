@@ -361,3 +361,1012 @@
 [2025-05-29T21:38:17.862Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
 [2025-05-29T21:38:22.917Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
 [2025-05-29T21:38:27.930Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:40:28.629Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.630Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.645Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.674Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.680Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.711Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:40:28.721Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.731Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:40:28.738Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.741Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:40:28.747Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.868Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:40:28.869Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:40:28.870Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:40:28.871Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:28.912Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:40:28.913Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:40:28.913Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:40:28.919Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:40:29.384Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.391Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.410Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.446Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.459Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.468Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.498Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:40:29.511Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:40:29.512Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:40:29.512Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:40:29.532Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.535Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:40:29.540Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.552Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:29.566Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:40:29.566Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:40:29.567Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:40:29.572Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:40:29.598Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:40:33.879Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:40:34.159Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.164Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.175Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.185Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.191Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.213Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.227Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.233Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.246Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:40:34.251Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:40:34.253Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:40:34.260Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:40:34.261Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:40:34.261Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:40:34.355Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:40:34.366Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:40:34.367Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:40:34.367Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:40:34.375Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:40:44.912Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:26.058Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.079Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.085Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.091Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:43:26.112Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.153Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:26.159Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.182Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.186Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:43:26.212Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.220Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.222Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:43:26.223Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:43:26.223Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:43:26.224Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:26.237Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:26.255Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:43:26.255Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:43:26.256Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:43:27.136Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.148Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.161Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.181Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.187Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.198Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.213Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:27.225Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:43:27.226Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:43:27.226Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:43:27.233Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.246Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.258Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:27.267Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:43:27.268Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:43:27.268Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:43:27.281Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:27.329Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:43:27.336Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:43:28.951Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:43:29.201Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.207Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.213Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.223Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.232Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.238Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.243Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.245Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:29.260Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.274Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:43:29.278Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:43:29.278Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:43:29.279Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:43:29.288Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:29.342Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:43:29.342Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:43:29.343Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:43:29.368Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:43:29.377Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:34.174Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:37.448Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.455Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.460Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.469Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.500Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.505Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:43:37.516Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.533Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:37.537Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.545Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:37.556Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:43:37.571Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:43:37.571Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:43:37.572Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:43:37.585Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.591Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:43:37.626Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:43:37.627Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:43:37.627Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:43:39.417Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:42.590Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:44.230Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:49.298Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:54.342Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:57.634Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:43:59.385Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:43:59.459Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:44:04.429Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:44:09.473Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:44:14.520Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:44:18.279Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.286Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.290Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.310Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.323Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.340Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:44:18.346Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.359Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:44:18.364Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:44:18.391Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.417Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.437Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:44:18.447Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:44:18.448Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:44:18.448Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:44:18.460Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:44:18.461Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:44:18.461Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:44:18.469Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:44:27.923Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:44:28.908Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:44:29.916Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:45:10.951Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:10.964Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:10.975Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:10.995Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:45:11.014Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.019Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:45:11.021Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:45:11.021Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:45:11.022Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.031Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:45:11.039Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:45:11.046Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.065Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.074Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.098Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.118Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:45:11.119Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:45:11.119Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:45:11.121Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:45:11.168Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:45:11.413Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.417Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.424Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.429Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.452Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.475Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.480Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:45:11.508Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:45:11.508Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:45:11.508Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:45:11.513Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.524Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.534Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:45:11.545Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:45:11.546Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:45:11.546Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:45:11.560Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:45:11.596Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:45:11.606Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:46:18.552Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.558Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.563Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.570Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.578Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.585Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.626Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:46:18.632Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:46:18.633Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:46:18.633Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:46:18.642Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:46:18.649Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.674Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:46:18.675Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:46:18.675Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:46:18.698Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.704Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:46:18.751Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:46:18.752Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:46:23.909Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:52:00.092Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.102Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:52:00.104Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.122Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.182Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.269Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.277Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.282Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:52:00.337Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:52:00.338Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:52:00.338Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:52:00.347Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:52:00.348Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:52:00.348Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:52:00.354Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.367Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.376Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:00.381Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:52:00.407Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:52:05.462Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:52:10.336Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:52:10.533Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:52:12.934Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.938Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.944Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.950Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.954Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.961Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.965Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.970Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:12.978Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.019Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:52:13.024Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:52:13.024Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:52:13.046Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:52:13.109Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:52:13.111Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:52:13.110Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:52:13.110Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:52:13.115Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:52:13.116Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:52:13.116Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:52:13.383Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.393Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.404Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.411Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.417Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.438Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.468Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:52:13.469Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:52:13.469Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:52:13.492Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.527Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:52:13.539Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.559Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:52:13.560Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:52:13.561Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:52:13.578Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:52:13.622Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:52:13.644Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:54:00.103Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.113Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.126Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.136Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.176Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.189Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:54:00.199Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.203Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.224Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:54:00.225Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:54:00.225Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:54:00.247Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:54:00.253Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:54:00.257Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.262Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.278Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:54:00.322Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:54:00.323Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:54:00.323Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:54:00.368Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:54:00.656Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.661Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.685Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.709Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.730Z] error: <plexProxyHandler> HTTP 401 communicating with Plex. Data: <html><head><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+[2025-05-29T21:54:00.734Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.751Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.757Z] error: <credentialedProxyHandler> HTTP Error 403 calling http://overseerr:5055/api/v1/request/count
+[2025-05-29T21:54:00.761Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.777Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-05-29T21:54:00.778Z] error: <httpProxy> [
+  500,
+  Error: connect ECONNREFUSED 172.18.0.9:8156
+      at <unknown> (Error: connect ECONNREFUSED 172.18.0.9:8156) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '172.18.0.9',
+    port: 8156
+  }
+]
+[2025-05-29T21:54:00.778Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-05-29T21:54:00.783Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.793Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:00.795Z] error: <httpProxy> Error calling https://portainer:9000/api/endpoints/3/docker/containers/json...
+[2025-05-29T21:54:00.796Z] error: <httpProxy> [
+  500,
+  [Error: write EPROTO 58F2351196750000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+  ] {
+    errno: -71,
+    code: 'EPROTO',
+    syscall: 'write'
+  }
+]
+[2025-05-29T21:54:00.796Z] error: <credentialedProxyHandler> HTTP Error 500 calling https://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-05-29T21:54:00.810Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:54:00.847Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-05-29T21:54:11.932Z] error: <qbittorrentProxyHandler> HTTP 403 logging in to qBittorrent.  Data: Your IP address has been banned after too many failed authentication attempts.
+[2025-05-29T21:54:19.556Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-05-29T21:54:19.561Z] error: <
