@@ -206,5 +206,5 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ${config}/homepage:/app/config
+      - /home/hydra14/homelab/homepage:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
