@@ -44,7 +44,7 @@ services:
       PGID: ${PGID}
       TZ: ${local}
     volumes:
-      - ${config}/overseerr:/app/config
+      - ${config}/jellyseerr:/app/config
 
   qbittorrent:
     image: linuxserver/qbittorrent:latest
