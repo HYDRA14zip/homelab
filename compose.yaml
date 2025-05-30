@@ -29,8 +29,8 @@ services:
       TZ: ${local}
       VERSION: docker
     volumes:
-      - ${movies}:/media/Movies
-      - ${series}:/media/Series
+      - ${movies}:/data/Movies
+      - ${series}:/data/Series
       - ${config}/plex:/config
 
   jellyseerr:
@@ -86,7 +86,7 @@ services:
     volumes:
       - ${config}/radarr:/config
       - ${downloads}:/downloads
-      - ${movies}:/media/movies
+      - ${movies}:/data/movies
 
   sonarr:
     image: linuxserver/sonarr:latest
@@ -101,7 +101,7 @@ services:
     volumes:
       - ${config}/sonarr:/config
       - ${downloads}:/downloads
-      - ${series}:/media/series
+      - ${series}:/data/series
       
   organizr:
     image: organizr/organizr:latest
