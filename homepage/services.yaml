@@ -27,6 +27,17 @@
             type: jellyseerr
             url: http://jellyseerr:5055
             key: MTc0ODYzNzI0MDIxOTI0YzdmZWU5LWZhZDYtNDkyYy1hNDYyLWUyYmM0N2YyYTIxMg==
+    - Immich:
+        icon: immich.png
+        href: https://immich.hydra14.com
+        description: Photos and Videos
+        server: my-docker
+        container: immich_server
+        widget:
+            type: immich
+            url: http://110.10.0.101:2283
+            key: y3rqBBqJ1yqhgHJWec54dWYH3j9eerNqukhoNFtzM
+            version: 2
     - Paperless:
         icon: paperless-ngx.png
         href: https://docs.hydra14.com
