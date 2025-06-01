@@ -195,11 +195,25 @@ services:
     restart: unless-stopped
     environment:
       HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.101:3000,home.hydra14.com,tv.lan:3000
-      PUID: '1000'
-      PGID: '1000'
-      TZ: Europe/Budapest
+      PUID: ${PUID}
+      PGID: ${PGID}
+      TZ: ${local}
     ports:
       - "3000:3000"
     volumes:
       - /home/hydra14/homelab/homepage:/app/config
       - /var/run/docker.sock:/var/run/docker.sock:ro
+
+  wizarr:
+    container_name: wizarr
+    image: ghcr.io/wizarrrr/wizarr
+    ports:
+      - "5690:5690"
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+      DISABLE_BUILTIN_AUTH: false
+      TZ: ${local}
+    volumes:
+      - ${root}/wizarr/database:/data/database
+      - ${root}/wizarr/wizard:/data/wizard_steps
