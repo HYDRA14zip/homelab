@@ -50,7 +50,7 @@ services:
       - db
       - broker
     ports:
-      - "8000:8000"
+      - "8123:8000"
     volumes:
       - ${ROOT}/data:/usr/src/paperless/data
       - ${ROOT}/media:/usr/src/paperless/media
