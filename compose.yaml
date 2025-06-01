@@ -16,23 +16,6 @@ services:
       - ${series}:/data/tvshows
       - ${config}/jellyfin:/config
 
-  plex:
-    image: linuxserver/plex:latest
-    container_name: plex
-    #network_mode: host
-    restart: unless-stopped
-    ports:
-      - "32400:32400"
-    environment:
-      PUID: ${PUID}
-      PGID: ${PGID}
-      TZ: ${local}
-      VERSION: docker
-    volumes:
-      - ${movies}:/data/Movies
-      - ${series}:/data/Series
-      - ${config}/plex:/config
-
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
@@ -173,21 +156,6 @@ services:
       TUNNEL_TOKEN: ${cloudflare_token}
     volumes:
       - ${config}/cloudflared:/config
-
-  paperless:
-    image: linuxserver/paperless-ngx:latest
-    container_name: paperless
-    restart: unless-stopped
-    ports:
-      - "8156:8000"
-    environment:
-      PUID: ${PUID}
-      PGID: ${PGID}
-      TZ: ${local}
-      REDIS_URL: 110.10.0.101:8156,docs.hydra14.com,tv.lan:8156
-    volumes:
-      - ${config}/paperless:/config
-      - ${root}/paperless:/data
 
   homepage:
     image: ghcr.io/gethomepage/homepage:latest
