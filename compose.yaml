@@ -85,7 +85,7 @@ services:
       - ${config}/sonarr:/config
       - ${downloads}:/downloads
       - ${series}:/data/series
-      
+
   organizr:
     image: organizr/organizr:latest
     container_name: organizr
@@ -99,7 +99,7 @@ services:
       TZ: ${local}
     volumes:
       - ${config}/organizr:/config
-     
+
   nginx:
     image: jc21/nginx-proxy-manager:latest
     container_name: nginx
@@ -129,7 +129,7 @@ services:
     volumes:
       - ${root}/Wallos/db:/var/www/html/db
       - ${root}/Wallos/logos:/etc/letsencrypt
-      
+
   portainer:
     image: portainer/portainer-ce
     container_name: portainer
@@ -144,8 +144,8 @@ services:
       TZ: ${local}
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - /portainer_data:/data
-      
+      - ${config}/portainer:/data
+
   cloudflared:
     image: cloudflare/cloudflared
     container_name: cloudflared
@@ -186,3 +186,4 @@ services:
     volumes:
       - ${root}/wizarr/database:/data/database
       - ${root}/wizarr/wizard:/data/wizard_steps
+
