@@ -43,11 +43,11 @@
         href: https://docs.hydra14.com
         description: Papers and documents
         server: my-docker
-        container: paperless
+        container: paperless-webserver-1
         widget:
             type: paperlessngx
-            url: http://paperless:8156
-            key: 411e4acc116d8718eece4af31921ad5848f07ef3
+            url: http://110.10.0.101:8123
+            key: 7cf5137d34d8c3fb1a80be217e018bf8e1d874c2
 - Backend:
     - Radarr:
         icon: radarr.png
@@ -103,4 +103,4 @@
             type: portainer
             url: http://portainer:9000
             env: 3
-            key: ptr_lOPTVsAYxu9vRDmAL/1PaNKT9DJv+z6tlCnSos5+5C8=
+            key: ptr_xZYNCJtUqcmjAjEjEYvxUrOZHDbhkbrzMUr6plVESes=

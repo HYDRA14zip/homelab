@@ -142,6 +142,7 @@ services:
       PUID: ${PUID}
       PGID: ${PGID}
       TZ: ${local}
+      TRUSTED_ORIGINS: port.hydra14.com
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${config}/portainer:/data

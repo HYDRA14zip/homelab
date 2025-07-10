@@ -4662,3 +4662,895 @@
   }
 ]
 [2025-06-14T17:05:42.675Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-06-21T16:01:03.797Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T16:57:33.157Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:29:19.176Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:29:19.344Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:29:19.355Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.367Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.378Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.385Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.391Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.399Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.521Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.534Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.541Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.774Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.780Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.784Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.795Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.799Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.803Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.811Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.819Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.824Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:29:19.972Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:29:20.077Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-06-24T21:29:24.962Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-06-24T21:29:24.963Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-06-24T21:29:24.964Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-06-24T21:30:30.559Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.563Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.584Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.592Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.598Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.608Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.621Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.676Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.699Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:30:30.742Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:30:30.780Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-06-24T21:30:35.686Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-06-24T21:30:35.687Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-06-24T21:30:35.688Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-06-24T21:41:27.637Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.662Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.683Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.690Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.713Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-06-24T21:41:27.764Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.781Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.791Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.811Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.828Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-06-24T21:41:27.865Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-06-24T21:41:32.966Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-06-24T21:41:32.968Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-06-24T21:41:32.968Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-09T18:30:16.434Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.632Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.705Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.787Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.808Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.848Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.866Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.875Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:16.890Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:17.015Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-09T18:30:17.683Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-09T18:30:17.751Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-09T18:30:18.560Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.572Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.579Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.590Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.629Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.637Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.661Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.671Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.746Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-09T18:30:18.760Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:18.787Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-09T18:30:21.927Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-09T18:30:21.928Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-09T18:30:21.929Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-09T18:30:23.793Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-09T18:30:23.794Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-09T18:30:23.795Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-09T18:30:28.968Z] error: <dockerStatsService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:28.975Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:30.836Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:30.841Z] error: <dockerStatsService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.225Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.230Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.251Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.257Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.265Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.274Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.281Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.327Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.333Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:30:38.340Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-09T18:30:38.344Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-09T18:30:43.313Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-09T18:30:43.314Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-09T18:30:43.314Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-09T18:31:33.126Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.146Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.153Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.182Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.218Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.270Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.276Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.288Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.299Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-09T18:31:33.368Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-09T18:31:33.417Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-09T18:31:38.200Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-09T18:31:38.201Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-09T18:31:38.201Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:06:23.124Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.140Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.151Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.169Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.189Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.210Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.220Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.231Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.248Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:23.340Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:06:23.695Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-10T09:06:24.625Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-10T09:06:26.473Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.482Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.491Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.509Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.516Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.531Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.552Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.597Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.608Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:26.625Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-10T09:06:27.560Z] error: <dockerStatsService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:06:28.271Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:06:28.272Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:06:28.272Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:06:28.281Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:06:31.543Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:06:31.544Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:06:31.544Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:18:26.234Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.308Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.340Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.430Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.468Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.560Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.697Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.751Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.775Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:26.808Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-10T09:18:26.816Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:18:27.871Z] error: <dockerStatsService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:31.463Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:18:31.464Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:18:31.465Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:18:43.372Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.385Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.399Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.413Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.423Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.442Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.473Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.486Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.518Z] error: <dockerStatusService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.564Z] error: <dockerStatsService> Error: connect EACCES /var/run/docker.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    at PipeConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+[2025-07-10T09:18:43.570Z] error: <service-helpers> Error getting services from Docker server 'my-docker': [Error: connect EACCES /var/run/docker.sock] {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'connect',
+  address: '/var/run/docker.sock'
+}
+[2025-07-10T09:18:43.581Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:18:48.467Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:18:48.468Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:18:48.468Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:18:54.178Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:18:59.004Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:18:59.004Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:18:59.005Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:19:05.628Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:19:10.216Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:19:10.217Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:19:10.217Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:19:23.521Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:19:28.316Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:19:28.317Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:19:28.317Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:19:32.593Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:19:37.226Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:19:37.227Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:19:37.227Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:20:03.015Z] error: <credentialedProxyHandler> HTTP Error 401 calling http://portainer:9000/api/endpoints/3/docker/containers/json?all=1
+[2025-07-10T09:20:07.773Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:20:07.774Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:20:07.775Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:22:27.316Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:22:27.318Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:22:27.318Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:22:29.043Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:22:29.044Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:22:29.044Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:24:07.148Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:24:07.149Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:24:07.149Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:24:50.736Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:24:50.737Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:24:50.738Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:38:52.372Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:38:52.374Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:38:52.374Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:39:02.825Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:39:02.826Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:39:02.826Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:41:21.987Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:41:21.988Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:41:21.988Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:41:43.990Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:41:43.991Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:41:43.991Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:43:05.598Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:43:05.600Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:43:05.600Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:43:07.915Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:43:07.916Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:43:07.916Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:43:38.644Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:43:38.646Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:43:38.646Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:43:40.249Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:43:40.250Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:43:40.250Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:44:08.873Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:44:08.874Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:44:08.874Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:48:37.253Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:48:37.254Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:48:37.254Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:48:41.598Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:48:41.599Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:48:41.599Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:50:12.995Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:50:12.996Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:50:12.996Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T09:50:30.780Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T09:50:30.781Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T09:50:30.781Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T10:27:53.969Z] error: <httpProxy> Error calling http://paperless:8156/api/statistics/...
+[2025-07-10T10:27:54.021Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless'
+  }
+]
+[2025-07-10T10:27:54.021Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless:8156/api/statistics/?format=json
+[2025-07-10T10:28:53.852Z] error: <httpProxy> Error calling http://paperless-webserver-1:8156/api/statistics/...
+[2025-07-10T10:28:53.853Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless-webserver-1] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless-webserver-1'
+  }
+]
+[2025-07-10T10:28:53.853Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless-webserver-1:8156/api/statistics/?format=json
+[2025-07-10T10:28:55.749Z] error: <httpProxy> Error calling http://paperless-webserver-1:8156/api/statistics/...
+[2025-07-10T10:28:55.750Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless-webserver-1] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless-webserver-1'
+  }
+]
+[2025-07-10T10:28:55.750Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless-webserver-1:8156/api/statistics/?format=json
+[2025-07-10T10:30:31.178Z] error: <httpProxy> Error calling http://paperless-webserver-1:8156/api/statistics/...
+[2025-07-10T10:30:31.179Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless-webserver-1] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless-webserver-1'
+  }
+]
+[2025-07-10T10:30:31.179Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless-webserver-1:8156/api/statistics/?format=json
+[2025-07-10T10:33:16.182Z] error: <httpProxy> Error calling http://paperless-webserver-1:8123/api/statistics/...
+[2025-07-10T10:33:16.183Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless-webserver-1] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless-webserver-1'
+  }
+]
+[2025-07-10T10:33:16.183Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless-webserver-1:8123/api/statistics/?format=json
+[2025-07-10T10:33:17.442Z] error: <httpProxy> Error calling http://paperless-webserver-1:8123/api/statistics/...
+[2025-07-10T10:33:17.443Z] error: <httpProxy> [
+  500,
+  [Error: getaddrinfo EAI_AGAIN paperless-webserver-1] {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'paperless-webserver-1'
+  }
+]
+[2025-07-10T10:33:17.443Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://paperless-webserver-1:8123/api/statistics/?format=json
