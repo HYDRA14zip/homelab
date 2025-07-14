@@ -121,7 +121,7 @@ services:
     container_name: wallos
     restart: unless-stopped
     ports:
-      - "8282:80"
+      - "8282:8282"
     environment:
       PUID: ${PUID}
       PGID: ${PGID}
@@ -163,7 +163,7 @@ services:
     container_name: homepage
     restart: unless-stopped
     environment:
-      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.101:3000,home.hydra14.com,tv.lan:3000
+      HOMEPAGE_ALLOWED_HOSTS: gethomepage.dev,110.10.0.101:3000,home.hydra14.com,proxmox.local:3000
       PUID: ${PUID}
       PGID: ${PGID}
       TZ: ${local}
